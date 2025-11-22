@@ -474,7 +474,7 @@
              TAB_LFT   BACK        FWD        TAB_RGT  &up_dir                  REDO_      PASTE_      COPY_       CUT_        UNDO_
             &kp LCTRL  &kp LALT   &kp LGUI   &kp LSHFT  &kp CAPS                &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &kp SEMI
             &none      &none       &none      &none      &none                  &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &kp RETURN
-                                   &none      &kp BSPC &kb ENTER                &none &none      &none
+                                   &none      &kp BSPC &kp ENTER                &none &none      &none
             >;
         };
 
