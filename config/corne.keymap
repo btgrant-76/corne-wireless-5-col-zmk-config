@@ -44,7 +44,9 @@
     chosen {
         zmk,physical-layout = &foostan_corne_5col_layout;
     };
+};
 
+/ {
     behaviors {
         lt: layer_tap { // this overrides the built-in layer-tap configuration https://zmk.dev/docs/keymaps/behaviors/hold-tap#custom-hold-tap-examples
             compatible = "zmk,behavior-hold-tap";
