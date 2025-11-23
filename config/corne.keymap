@@ -428,7 +428,9 @@
             bindings = <&kp CAPS>;
         };
     };
+};
 
+/ {
     keymap {
         compatible = "zmk,keymap";
         /*
