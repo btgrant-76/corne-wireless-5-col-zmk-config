@@ -184,26 +184,26 @@
             // parens
             parens_ls               { sequence = <P A>; bindings = <&pair LPAR RPAR>; };
             parens_ins_ls           { sequence = <P I>; bindings = <&pair_insert LPAR RPAR>; };
-            /* ZMK 0.4 memory savings
+            /* ZMK 0.4 memory savings */
             parens_semi_ls          { sequence = <P S A>; bindings = <&pair_w_semi LPAR RPAR>; };
             parens_semi_ins_ls      { sequence = <P S I>; bindings = <&pair_insert_w_semi LPAR RPAR>; };
-            */
+            /**/
 
             // brackets
             bracket_ls              { sequence = <B A>; bindings = <&pair LBKT RBKT>; };
             bracket_ins_ls          { sequence = <B I>; bindings = <&pair_insert LBKT RBKT>; };
-            /* ZMK 0.4 memory savings
+            /* ZMK 0.4 memory savings */
             bracket_semi_ls         { sequence = <B S A>; bindings = <&pair_w_semi LBKT RBKT>; };
             bracket_semi_ins_ls     { sequence = <B S I>; bindings = <&pair_insert_w_semi LBKT RBKT>; };
-            */
+            /**/
 
             // curly braces
             curly_brace_ls          { sequence = <C A>; bindings = <&pair LBRC RBRC>; };
             curly_brace_ins_ls      { sequence = <C I>; bindings = <&pair_insert LBRC RBRC>; };
-            /* ZMK 0.4 memory savings
+            /* ZMK 0.4 memory savings */
             curly_brace_semi_ls     { sequence = <C S A>; bindings = <&pair_w_semi LBRC RBRC>; };
             curly_brace_semi_ins_ls { sequence = <C S I>; bindings = <&pair_insert_w_semi LBRC RBRC>; };
-            */
+            /**/
 
             // back-tick/grave
             grave_ins_ls            { sequence = <G I>; bindings = <&pair_insert GRAVE GRAVE>; };
@@ -214,16 +214,16 @@
             dquote_ins_ls           { sequence = <D Q I>; bindings = <&pair_insert DQT DQT>; };
 
             // HTML tags
-            /* ZMK 0.4 memory savings
+            /* ZMK 0.4 memory savings */
             tag_open_in_ls          { sequence = <T O>; bindings = <&tag_open_insert>; };
             tag_close_in_ls         { sequence = <T C>; bindings = <&tag_close_insert>; };
             tag_void_in_ls          { sequence = <T V>; bindings = <&tag_void_insert>; };
-            */
+            /**/
 
             // others
-            /* ZMK 0.4 memory savings
+            /* ZMK 0.4 memory savings */
             updir_ls                { sequence = <U D>; bindings = <&up_dir>; };
-            */
+            /**/
             js_log_ls               { sequence = <L O G>; bindings = <&js_log>; };
             js_af_ls                { sequence = <A F>; bindings = <&js_arr_fun>; };
             caps_lock_ls            { sequence = <C L>; bindings = <&macos_caps>; };
@@ -313,7 +313,7 @@
                        <&kp MACRO_PLACEHOLDER>,
                        <&kp LEFT>;
         };
-        /* ZMK 0.4 memory savings
+        /* ZMK 0.4 memory savings */
         pair_w_semi: pair_w_semi {
             compatible = "zmk,behavior-macro-two-param";
             #binding-cells = <2>;
@@ -334,7 +334,7 @@
                        <&kp LEFT>,
                        <&kp LEFT>;
         };
-        */
+        /**/
         js_log: javascript_console_log {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -348,7 +348,7 @@
             bindings = <&kp EQUAL &kp GT &kp SPC &kp LBRC  &kp RBRC
                         &kp LEFT>;
         };
-        /* ZMK 0.4 memory savings
+        /* ZMK 0.4 memory savings */
         tag_open_insert:  html_tag_open_insert {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -364,7 +364,7 @@
             #binding-cells = <0>;
             bindings = <&kp LT &kp SPACE &kp FSLH &kp GT &kp LEFT &kp LEFT &kp LEFT>;
         };
-        */
+        /**/
         new_browser_window: new_browser_window {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
