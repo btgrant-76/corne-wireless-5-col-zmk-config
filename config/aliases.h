@@ -5,8 +5,8 @@
 //#define THUMBS 30 31      33 34 // jlwffre encoder is at 32
 
 // Home row mods macro
-#define HRML(k1,k2,k3,k4) &hrml LCTRL k1  &hrml LALT k2  &hrml LGUI k3  &sftl LSHFT k4
-#define HRMR(k1,k2,k3,k4) &sftr RSHFT k1  &hrmr RGUI k2  &hrmr LALT k3  &hrmr RCTRL k4
+#define HRML(k1,k2,k3,k4) &hrml LCTRL k1  &hrml LALT k2  &hrml LGUI k3  &hrml LSHFT k4
+#define HRMR(k1,k2,k3,k4) &hrmr RSHFT k1  &hrmr RGUI k2  &hrmr LALT k3  &hrmr RCTRL k4
 
 #define BACK &kp LG(LBKT)
 #define FWD &kp LG(RBKT)
