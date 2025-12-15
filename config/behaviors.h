@@ -37,7 +37,7 @@
             quick-tap-ms = <175>;
 //            require-prior-idle-ms = <150>;
             bindings = <&kp>, <&kp>;
-            hold-trigger-key-positions = <KEYS_R THUMBS>;
+            hold-trigger-key-positions = <KEYS_R/* THUMBS*/>;
             hold-trigger-on-release;
         };
         hrmr: home_row_mods_right_hand {
@@ -49,7 +49,7 @@
             quick-tap-ms = <175>;
 //            require-prior-idle-ms = <150>;
             bindings = <&kp>, <&kp>;
-            hold-trigger-key-positions = <KEYS_L THUMBS>;
+            hold-trigger-key-positions = <KEYS_L/* THUMBS*/>;
             hold-trigger-on-release;
         };
 
@@ -62,7 +62,7 @@
             quick-tap-ms = <175>;
 //            require-prior-idle-ms = <150>;
             bindings = <&kp>, <&kp>;
-            hold-trigger-key-positions = <KEYS_R THUMBS>;
+            hold-trigger-key-positions = <KEYS_R/* THUMBS*/>;
             hold-trigger-on-release;
         };
         sftr: home_row_mod_shift_right_hand {
@@ -74,7 +74,7 @@
             quick-tap-ms = <175>;
 //            require-prior-idle-ms = <150>;
             bindings = <&kp>, <&kp>;
-            hold-trigger-key-positions = <KEYS_L THUMBS>;
+            hold-trigger-key-positions = <KEYS_L/* THUMBS*/>;
             hold-trigger-on-release;
         };
 
