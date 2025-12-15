@@ -47,9 +47,9 @@
         num { // 2
             display-name = "Number";
             bindings = <
-            UNDO_       CUT_        COPY_       PASTE_      REDO_                    &lbkt_par   &kp N7      &kp N8      &kp N9   &rbkt_par
-            &kp LCTRL  &kp LALT   &kp LGUI   &kp LSHFT &caps_word               &kp EQUAL  &kp N4     &kp N5     &kp N6     &semi_quot
-            &kp ESC    &none      &leader     &none     &none                &bslsh_enter &kp N1     &two_comma &three_dot &grv_slsh
+            UNDO_     CUT_     COPY_    PASTE_      REDO_                    &lbkt_par   &kp N7      &kp N8      &kp N9   &rbkt_par
+            &kp LCTRL &kp LALT &kp LGUI &kp LSHFT   &caps_word               &kp EQUAL  &kp N4     &kp N5     &kp N6     &semi_quot
+            &kp ESC   &none    &leader  &key_repeat &none                &bslsh_enter &kp N1     &two_comma &three_dot &grv_slsh
                                            &kp DEL &none &kp BSPC               &mins_space &zero_space &kp DOT
             >;
         };
@@ -57,10 +57,10 @@
         nav { // 3
             display-name = "Navigation";
             bindings = <
-             TAB_LFT   BACK        FWD        TAB_RGT  &up_dir                  REDO_      PASTE_      COPY_       CUT_        UNDO_
-            &kp LCTRL  &kp LALT   &kp LGUI   &kp LSHFT  &kp CAPS                &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &kp SEMI
-            &none      &none       &none      &none      &none                  &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &kp RETURN
-                                   &none      &kp BSPC &kp ENTER                &none &none      &none
+            TAB_LFT   BACK      FWD       TAB_RGT     &up_dir                  REDO_      PASTE_      COPY_       CUT_        UNDO_
+            &kp LCTRL &kp LALT  &kp LGUI  &kp LSHFT   &kp CAPS                &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &kp SEMI
+            &none     &none     &none     &key_repeat &none                  &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &kp RETURN
+                                &none     &kp BSPC    &kp ENTER                &none &none      &none
             >;
         };
 
