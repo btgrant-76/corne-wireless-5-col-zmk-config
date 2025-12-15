@@ -17,7 +17,7 @@
             flavor = "tap-preferred";
             tapping-term-ms = <145>;
             quick-tap-ms = <220>;
-            require-prior-idle-ms = <125>;
+//            require-prior-idle-ms = <125>;
             bindings = <&kp>, <&kp>;
         };
         st: shift_tap {
@@ -35,7 +35,7 @@
             tapping-term-ms = <280>;
 //            tapping-term-ms = <145>;
             quick-tap-ms = <175>;
-            require-prior-idle-ms = <150>;
+//            require-prior-idle-ms = <150>;
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <KEYS_R THUMBS>;
             hold-trigger-on-release;
@@ -47,7 +47,7 @@
             tapping-term-ms = <280>;
 //            tapping-term-ms = <145>;
             quick-tap-ms = <175>;
-            require-prior-idle-ms = <150>;
+//            require-prior-idle-ms = <150>;
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <KEYS_L THUMBS>;
             hold-trigger-on-release;
@@ -60,7 +60,7 @@
             tapping-term-ms = <280>;
 //            tapping-term-ms = <105>;
             quick-tap-ms = <175>;
-            require-prior-idle-ms = <150>;
+//            require-prior-idle-ms = <150>;
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <KEYS_R THUMBS>;
             hold-trigger-on-release;
@@ -72,13 +72,13 @@
             tapping-term-ms = <280>;
 //            tapping-term-ms = <105>;
             quick-tap-ms = <175>;
-            require-prior-idle-ms = <150>;
+//            require-prior-idle-ms = <150>;
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <KEYS_L THUMBS>;
             hold-trigger-on-release;
         };
 
-        mt: mod_tap {
+        mt: mod_tap { // TODO remove this if it's not in use.
             #binding-cells = <2>;
             tapping-term-ms = <145>;
             quick-tap-ms = <220>;
